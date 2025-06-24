@@ -1,0 +1,55 @@
+* What is scripting language?
+ A type of programming language designed for automating tasks and often used in contexts like web development and system administration. Unlike compiled languages (like C++), scriptinng       languages are interpreted, meaning their code is translated into machine code and executed line by line at runtime.
+
+A scripting language is a programming language designed for integrating and communicating with other programming languages. 
+
+
+* Output Statements--
+
+  console.log("heyy from external js")
+  document.write("With document write")
+  alert("Warning")
+
+* input statement--
+  var a = prompt("Enter value")
+
+* Variable--
+  we have 3 types of variable in javascript-- var, let, const
+
+  1. Var--(Global Scope)
+     if we use "var" than we can reassign and redeclear(same variable name) the value of a variable.
+     example -
+     var num=10
+     var num=12
+
+  2. Let--(local Scope)
+     if we use "let" than we can reassign the value and can not redeclear(same variable name)
+     example--
+     let n=10
+     n=12
+
+   3. const--(local Scope)
+      if we use "const" than we can not reassign the value and can not redeclear (same variable name)
+
+*  Operators-
+   special types of symbols are called operators. that we use for operators
+   there are 3 types of operators--
+
+   1. Unary--(++ --)
+
+   2. Binary--
+      Arithmetic-- (+ - * /)
+      Assignment-- (= += -= *= /=)
+      Relational-- (> < >= <= == === !=)
+      Logical-- (&& || !)
+
+   3. Turnary-- (? :)
+      this is use for single line conditional statement.
+
+loops in java script--
+1. do while 
+2. while
+3. for 
+4. for of
+5. for in
+6. for each
