@@ -5,3 +5,4 @@ btn.addEventListener('click',()=>{
     btn.textContent="light"
     
 })
+
