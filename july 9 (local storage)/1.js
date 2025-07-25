@@ -27,6 +27,6 @@ function store(){
 let a = localStorage.getItem('Username')
 console.log(a)
 
-localStorage.removeItem('UserAge')
+// localStorage.removeItem('UserAge')
 
-localStorage.clear()
+// localStorage.clear()

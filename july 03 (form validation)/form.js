@@ -27,6 +27,7 @@ function validate(){
          return false
     }
     else if (isNaN(contact)){
+        // isNaN - is not a number
         alert("please enter contact in numbers")
         document.querySelector('#contact').focus()
         return false
@@ -54,11 +55,11 @@ function validate(){
         return false
     }
 
-    // else if (password==""){
-    //     alert("Please enter storng password using special charecter")
-    //     document.querySelector('#password').focus()
-    //     return false
-    // }
+    else if (password==""){
+        alert("Please enter storng password using special charecter")
+        document.querySelector('#password').focus()
+        return false
+    }
 
     else if(!(pass.match(/[@#$%^&]/))){
         alert("Please enter storng password using special charecter")

@@ -9,10 +9,12 @@
 //     console.log(ar[i])
 // }
 
+
 // let ar=[1,2,3,4,5,6,7,8,9,10]
 // for(let i=0; i<10; i++){
 //     console.log(ar[i])
 // }
+
 
 // for(let i=0; i<10;i++){
 //    if (ar[i]%2==0){
@@ -20,24 +22,27 @@
 //    }
 // }
 
-// why indexing starts with 0?
 
+// why indexing starts with 0?
 // let ar=[1,2,3,4,5,6,7,8,9,10]
 // for (let vl of ar){
-//     console.log(vl) // this is use for element
+//     console.log(vl) // this is use for element (for of)
 // }
 // for (let vl in ar){
 //     console.log(vl) // this is use for indexing (for in)
 // }
 
 
-// Push() 
-// Pop()
 
-// ar=['himanshu', 24,'bhopal',5.8]
+// push() -- add element in last of an array
+// pop() -- remove element from last of an array
+// unshift() --add element in starting of an array
+// shift() -- remove element from starting of an array
+
+// let ar=['himanshu', 24,'bhopal',5.8]
 // console.log(ar[3])
-// for(let v of ar){
-//     console.log(v)
+// for(let vl of ar){
+//     console.log(vl)
 // }
 
 // ar.push('india','mp')
@@ -46,25 +51,39 @@
 // ar.pop()
 // console.log(ar)
 
-// unshift() --add element in starting of an array
-// shift() -- remove element from starting of an array
-
 // ar.unshift("101","PK")
 // console.log(ar)
 
 // ar.shift()
 // console.log(ar)
 
-// slice --
+
+
+// slice -- array.slice(starting, ending)
+// by default starting position is 0 
+
 // let ar=["php",45,10.7,"MP"]
 // let ar1=ar.slice(1,3)
 // console.log(ar1)
 // console.log(ar)
 
-// splice --
+// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// const citrus = fruits.slice(1, 3);
+// console.log(citrus)
+
+
+
+// splice -- The splice() method adds and/or removes array elements.
+// are.splice(a,b) -- a is starting value & b is how many elements you want to delete
+
 // let ar=["php",45,10.7,"MP"]
 // ar.splice(1,3)   // 1 is indexing value & 2 is no of elements
 // console.log(ar)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // At position 2, add "Lemon" and "Kiwi":
+// fruits.splice(2, "Lemon", "Kiwi");
+// console.log(fruits)
 
 // let ar=["php",45,10.7,"MP"]
 // ar.splice(2,0,"sir")

@@ -1,0 +1,59 @@
+.form-item-field-report-category-target-id {
+  display: none;
+}
+.investor-report-filter ul li:first-child {
+  display: none;
+}
+.form-item-field-category-target-id {
+  display: none;
+}
+.form-item-field-date-value {
+  display: none;
+}
+#views-exposed-form-press-release-block-1 {
+  display: none;
+}
+#views-exposed-form-news-block-1 {
+  display: none;
+}
+#views-exposed-form-leaders-block-1 {
+  display: none;
+}
+#views-exposed-form-our-brands-block-1 {
+  display: none;
+}
+#views-exposed-form-stories-block-1 {
+  display: none;
+}
+.pagination li.is-active {
+  color: #dd052b !important;
+}
+.imgDesk {
+  display: block !important;
+}
+.imgMob {
+  display: none!important;
+}
+@media only screen and (max-width:767px) {
+  .imgDesk {
+    display: none !important;
+}
+  .imgMob {
+    display: block !important;
+}
+}
+#views-exposed-form-press-release-archive-block-1 {
+  display: none;
+}
+#views-exposed-form-news-archive-block-1 {
+  display: none;
+}
+#views-exposed-form-stories-archive-block-1 {
+  display: none;
+}
+#edit-captcha-response--description {
+  display: none;
+}
+.webform-submission-museum-visit-form #edit-status {
+  display: none;
+}

@@ -1,5 +1,5 @@
 // Object-- unordered{}
-// value in key value
+// value - in key value format
 
 // let ob={
 //     name: "Himanshu",
@@ -27,6 +27,7 @@
 // console.log(ob.contact)
 
 // or 
+
 // let ob={
 //     name:prompt("Enter name: ") ,
 //     contact:parseInt(prompt("Enter contact: ")),
@@ -36,6 +37,8 @@
 // console.log(ob.name)
 // console.log(ob.city)
 // console.log(ob.contact)
+
+
 
 // let emp={
 //     emp_name:"Himanshu",
@@ -50,23 +53,27 @@
 // console.log(emp.emp_address[0])
 // console.log(emp.emp_address[1])
 
+
+
 // adding array value in object --
 // emp.emp_contact.push(7566332274)
 // console.log(emp.emp_contact)
 
-let emp={
-    emp_name:"Himanshu",
-    emp_id:101,
-    emp_desgination:"SDE",
-    emp_contact:[9589152996,9589897133],
-    emp_address:["Surendra palace","Narayan Nagar"]
-}
-emp.emp_mail= "himanshusoninagod@gmail.com"
-// console.log(emp.emp_mail)
 
-for(let k in emp){
-    console.log(emp[k])
-}
+// let emp={
+//     emp_name:"Himanshu",
+//     emp_id:101,
+//     emp_desgination:"SDE",
+//     emp_contact:[9589152996,9589897133],
+//     emp_address:["Surendra palace","Narayan Nagar"]
+// }
+// emp.emp_mail= "himanshusoninagod@gmail.com"
+// console.log(emp.emp_mail)
+// console.log(emp)
+
+// for(let k in emp){
+//     console.log(emp[k])
+// }
 
 // print only one key 1
 

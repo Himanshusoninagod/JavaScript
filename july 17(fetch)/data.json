@@ -1,0 +1,32 @@
+{
+  "userdata": [
+    {
+      "id": "4c6c",
+      "name": "Prince Kumar Soni",
+      "age": "21",
+      "contact": "1111111111",
+      "city": "Nagod"
+    },
+    {
+      "id": "83a4",
+      "name": "Himanshu Soni",
+      "age": "22",
+      "contact": "9589152996",
+      "city": "Delhi"
+    },
+    {
+      "id": "17a7",
+      "name": "Harsh Gautam",
+      "age": "22",
+      "contact": "7693959697",
+      "city": "Satna"
+    },
+    {
+      "id": "6f7c",
+      "name": "Pradumn Soni",
+      "age": "25",
+      "contact": "9589897133",
+      "city": "UK"
+    }
+  ]
+}

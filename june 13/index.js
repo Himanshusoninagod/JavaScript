@@ -6,7 +6,7 @@
 // alert("Warning")
 
 // input statement--
-// var a = prompt("enater value")
+// var a = parseInt(prompt("enater value"))
 
 // Variable--
 // we have 3 types of variable in javascript-- var, let, const

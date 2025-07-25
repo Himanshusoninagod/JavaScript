@@ -1,0 +1,26 @@
+/* Testing changes May 27th */
+#block-mahindra-local-tasks ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #eee;
+}
+#block-mahindra-local-tasks ul li {
+  padding: 10px 20px;
+  border-right: 1px solid #ddd;
+}
+#block-mahindra-local-tasks ul li a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  #block-mahindra-local-tasks ul li {
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+    flex-basis: 100%;
+  }
+}
+
+/* Basic page work with us (homepage section) css testing */
+.work-with-us.work-with-us-testing .grid-layout .slides:hover {
+  background-color: #1c1c1c;
+}
