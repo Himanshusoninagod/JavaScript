@@ -7,5 +7,6 @@
 // let h = document.querySelector('#hi')
 // h.style.color="blue"
 
-let list =  document.querySelectorAll('li')
-list[0].style.color="red"
+// let list =  document.querySelectorAll('li')
+// list[0].style.color="red"
+// list[2].style.color="blue"

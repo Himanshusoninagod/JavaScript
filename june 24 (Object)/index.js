@@ -59,6 +59,8 @@
 // emp.emp_contact.push(7566332274)
 // console.log(emp.emp_contact)
 
+// emp.emp_contact.pop()
+// console.log(emp.emp_contact)
 
 // let emp={
 //     emp_name:"Himanshu",
@@ -75,6 +77,7 @@
 //     console.log(emp[k])
 // }
 
-// print only one key 1
+
+
 
 

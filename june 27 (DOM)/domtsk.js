@@ -25,17 +25,19 @@
 
 // let h2 = document.getElementById('head2')
 // h2.style.backgroundColor="pink"
-// h1.style.color="blue"
+// h2.style.color="blue"
 
 // let image = document.getElementById('image')
 // image.src="/june 27 (DOM)/sebastien-lavalaye-gNY6RsMIsPo-unsplash.jpg"
 // image.style.borderRadius="50%"
 
-let head1 = document.getElementById('head1')
-head1.setAttribute('align','center')
+// let head1 = document.getElementById('head1')
+// head1.setAttribute('align','center')
+// head1.style.textAlign="center"
 
-let head2 = document.getElementById('head2')
-head2.removeAttribute('style')
+// let head2 = document.getElementById('head2')
+// head2.style.backgroundColor="blue"
+// head2.removeAttribute("style")
 
 
 

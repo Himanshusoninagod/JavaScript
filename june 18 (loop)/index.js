@@ -39,8 +39,6 @@
 //     num--
 // }
 
-// let num= parseInt(prompt("Enter a number: "))
-// for(let i=1; i<=num)
 
 // write a program to print square of all even numbers between 20 to 1 
 // for (let i=20; i>=1; i--){

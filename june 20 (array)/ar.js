@@ -60,6 +60,7 @@
 
 
 // slice -- array.slice(starting, ending)
+// by using slice function we can get values between starting(include starting value) and ending(-1) index 
 // by default starting position is 0 
 
 // let ar=["php",45,10.7,"MP"]
@@ -67,23 +68,28 @@
 // console.log(ar1)
 // console.log(ar)
 
+
+
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // const citrus = fruits.slice(1, 3);
 // console.log(citrus)
 
 
+// splice -- The splice() method adds or removes array elements.
+// ar.splice(a,b) -- a is starting value & b is how many elements you want to delete
 
-// splice -- The splice() method adds and/or removes array elements.
-// are.splice(a,b) -- a is starting value & b is how many elements you want to delete
 
 // let ar=["php",45,10.7,"MP"]
-// ar.splice(1,3)   // 1 is indexing value & 2 is no of elements
-// console.log(ar)
+// ar.splice(1,2)   // 1 is indexing value & 2 is no of elements
+// console.log(ar) 
+
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // // At position 2, add "Lemon" and "Kiwi":
-// fruits.splice(2, "Lemon", "Kiwi");
+// fruits.splice(2,0,"lemon","kiwi");
+// // 2 is starting index, 0 is deleting element and after that add element name inside" " 
 // console.log(fruits)
+
 
 // let ar=["php",45,10.7,"MP"]
 // ar.splice(2,0,"sir")
